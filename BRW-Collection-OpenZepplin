@@ -226,3 +226,115 @@ contract TheBullBrewCollection is
     }
 }
 
+
+// Hardhat Deploy Script
+
+
+const hre = require("hardhat");
+
+async function main() {
+
+  const Contract =
+    await hre.ethers.getContractFactory(
+      "TheBullBrewCollection"
+    );
+
+  const nft =
+    await Contract.deploy(
+      "ipfs://HIDDEN_METADATA_CID/hidden.json",
+      "YOUR_WALLET_ADDRESS",
+      "YOUR_SHA256_PROVENANCE_HASH"
+    );
+
+  await nft.waitForDeployment();
+
+  console.log(
+    "Contract deployed:",
+    await nft.getAddress()
+  );
+}
+
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});
+
+
+// Package Installation
+
+npm init -y
+
+npm install --save-dev hardhat
+npm install --save-dev @nomicfoundation/hardhat-toolbox
+
+npm install erc721a
+
+npm install @openzeppelin/contracts
+
+npm install dotenv
+
+
+// Arbitrum Nova Configuration
+hardhat.config.js
+
+
+
+require("@nomicfoundation/hardhat-toolbox");
+require("dotenv").config();
+
+module.exports = {
+  solidity: "0.8.20",
+  networks: {
+    arbitrumNova: {
+      url: "https://nova.arbitrum.io/rpc",
+      chainId: 42170,
+      accounts: [process.env.PRIVATE_KEY]
+    }
+  }
+};
+
+
+
+// Deploy:
+
+
+npx hardhat compile
+
+npx hardhat run scripts/deploy.js \
+--network arbitrumNova
+
+
+// Metadata Example: 1.json
+
+{
+  "name": "BRW Membership #1",
+  "description": "THEBULLBREWCOLLECTION Membership Pass",
+  "image": "ipfs://IMAGE_CID/1.png",
+  "attributes": [
+    {
+      "trait_type": "Membership",
+      "value": "Founding Member"
+    }
+  ]
+}
+
+
+
+//Website Membership Check
+
+
+const member =
+  await contract.isMember(wallet);
+
+if (member) {
+  console.log("Access Granted");
+}
+
+
+
+//NOTE: This is a deployable foundation for a 1,000-supply membership-pass NFT collection on Arbitrum Nova.
+//Before deploying real funds, run tests and consider a professional smart-contract audit.
+
+
+
+
