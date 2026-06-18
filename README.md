@@ -33,7 +33,7 @@ Cute little Description : This project is about deploying an NFT contract into t
 
 
 
-# HERE'S SOME THE HELP WHEN YOU NEED HELP:
+# HERE'S THE HELP WHEN YOU NEED HELP:
 
 # 1. Create the project
 
