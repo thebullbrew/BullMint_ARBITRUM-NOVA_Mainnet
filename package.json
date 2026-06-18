@@ -1,0 +1,11 @@
+npm init -y
+
+
+// Update the scripts section
+
+{
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy:nova": "hardhat run scripts/deploy.js --network arbitrumNova"
+  }
+}
