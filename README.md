@@ -181,7 +181,7 @@ await contract.mint(
 
 # IMPORTANT NOTES:
 
-Arbitrum Nova uses chain ID 42170 and requires ETH on Nova to pay gas.
+Arbitrum Nova requires ETH on Nova to pay gas.
 
 # EXPECTED OUTPUT : BREW_ARB (your own custom name) deployed to: 0x123...
 
