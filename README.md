@@ -3,7 +3,8 @@ Deploying an NFT contract into the Arbitrum Nova main net (assuming you have all
 
 <img width="1280" height="640" alt="1" src="https://github.com/user-attachments/assets/2b1f104a-f98b-40e0-b919-3665f4d7098a" />
 
-<img width="1280" height="640" alt="2" src="https://github.com/user-attachments/assets/09e28f2a-841a-4d69-b779-cfc4ee51b6ce" />
+<img width="1280" height="640" alt="2" src="https://github.com/user-attachments/assets/d4ef943d-9d4a-4f7a-8adf-07ef12f88e93" />
+
 
 
 
