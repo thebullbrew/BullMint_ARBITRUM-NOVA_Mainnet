@@ -1,4 +1,8 @@
-# BullMint_ARBITRUM-NOVA_Mainnet
+# # Repository Name: BULLMINT-ARB-NFT
+# Contract Name: BREW_ARB
+# Collection Name: BRW-COLLECTION-ARB
+# Token Symbol: BRW-ARB
+
 
 Cute little description : This project is about deploying an NFT contract into the Arbitrum Nova main net (assuming you have all dependencies installed and your metamask wallet ready. If not get outta here.)
 <img width="1280" height="640" alt="1" src="https://github.com/user-attachments/assets/2b1f104a-f98b-40e0-b919-3665f4d7098a" />
