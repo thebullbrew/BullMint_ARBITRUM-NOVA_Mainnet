@@ -32,8 +32,8 @@ Arbitrum Nova Mainnet
 # Standard:
 ERC-721 + ERC-2981
 
-# Cute little Description : 
-This project is about deploying an NFT contract into the Arbitrum Nova main net (assuming you have all dependencies installed and your metamask wallet ready. If not get outta here.) 
+# Cute little Description of what we're doing here : 
+Deploying an NFT contract into the Arbitrum Nova main net (assuming you have all dependencies installed and your metamask wallet ready. If not get outta here.) 
 
 
 
