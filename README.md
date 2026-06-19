@@ -187,7 +187,8 @@ await contract.mint(
 
 Arbitrum Nova requires ETH on Nova to pay gas.
 
-# EXPECTED OUTPUT : BREW_ARB (your own custom name) deployed to: 0x123...
+# EXPECTED OUTPUT: 
+BREW_ARB (your own custom name) deployed to: 0x123...
 
 
 
