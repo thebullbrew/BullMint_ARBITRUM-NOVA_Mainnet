@@ -9,7 +9,7 @@
 <img width="1280" height="640" alt="2" src="https://github.com/user-attachments/assets/d4ef943d-9d4a-4f7a-8adf-07ef12f88e93" />
 
 
-# PROJECT STRUCTURE: ( CUSTOMIZE YOUR OWN BUT USE THIS STRUCTURE. GET ORGANIZED.)
+# PROJECT STRUCTURE: ( CUSTOMIZE YOUR OWN BUT USE THIS STRUCTURE. YOU NEED TO GET ORGANIZED.)
 
 # Repository Name: 
 BULLMINT-ARB-NFT
